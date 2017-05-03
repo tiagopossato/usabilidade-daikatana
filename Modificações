@@ -1,0 +1,37 @@
+Tamanhos de tela: lg, md, sm
+
+Menu:
+    lg: Mantém como está
+    md: Logo em cima, centralizado
+        menu desce, fica embaixo da logo, centralizado
+    sm: Logo centralizado
+        Menu mobile
+    https://github.com/scotch-io/scotch-panels
+    https://panels.scotch.io/demos/side-menu-mobile-only-with-css/index.html
+        
+Título:
+    lg: centralizado, sem alterar o tamanho do texto
+    md: centralizado, sem alterar o tamanho do texto
+    sm: centralizado, sem alterar o tamanho do texto
+    
+cliente:
+    cards:
+        lg: 4
+        md: 2
+        sm: 1
+    
+digital:
+    lg: centralizado, sem alterar o tamanho do texto
+    md: centralizado, sem alterar o tamanho do texto
+    sm:  centralizado, sem alterar o tamanho do texto
+
+mapa:
+    lg:
+    md:
+    sm: 
+    
+footer:
+    lg: ###
+    md: ###
+    sm: centralizar logo e colocar um menu em cada linha
+    https://toddmotto.com/flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal/
