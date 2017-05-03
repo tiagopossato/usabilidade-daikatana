@@ -157,28 +157,13 @@ img {
 #logo,
 #menu {
     text-align: center !important;
-    line-height: 40px;
 }
-
-
-/* menu responsivo */
-
-header .toggle-panel {
-    display: none;
-}
-
 
 /* PEQUENO */
 
 @media only screen and (max-width: 600px) {
     #menu {
         display: none !important;
-    }
-    header .toggle-panel {
-        display: block;
-    }
-    header #scotch-panel {
-        display: none;
     }
 }
 
