@@ -145,7 +145,7 @@ img {
 }
 
 .linha .coluna.p12 {
-    width: 100%;
+    width: 100% !important;
     margin-left: auto;
     left: auto;
     right: auto;
@@ -211,23 +211,43 @@ img {
     font-size: 0.8rem;
 }
 
+#menuFooter a {
+    font-size: 1rem;
+}
+
+#menuResponsivo {
+    line-height: 30px;
+}
+
+#menuResponsivo li {
+    border-bottom: 1px #eeeeee solid;
+}
+
+#menuResponsivo li a {
+    color: #3e84da;
+}
+
 .cliente img {
     width: 50% !important;
 }
 
-.cliente h1 {
+.cliente h1,
+.digital h1 {
     font-size: 1.7rem !important;
 }
 
-.cliente h2 {
+.cliente h2,
+.digital h2 {
     font-size: 1.4rem !important;
 }
 
-.cliente .descricao {
-    font-size: 1.1rem !important;
+.cliente .descricao,
+.digital .descricao {
+    font-size: 1rem !important;
 }
 
-.cliente .btn {
+.cliente .btn,
+.digital .btn {
     font-size: 1rem !important;
 }
 
@@ -238,8 +258,27 @@ img {
     #menu {
         display: none !important;
     }
+    #logo {
+        text-align: left !important;
+    }
     #logo a img {
         height: 45px;
+        width: auto;
+    }
+    #btnMenu {
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+    #btnMenu a {
+        text-decoration: none;
+        color: #3e84da;
+        transition: 0.1s;
+    }
+    #btnMenu a:hover {
+        opacity: 0.5;
+    }
+    #logoFooter img {
+        height: 20px;
         width: auto;
     }
 }
@@ -251,6 +290,16 @@ img {
     #logo a img {
         height: 80px;
         width: auto;
+    }
+    #logoFooter img {
+        height: 30px;
+        width: auto;
+    }
+    #btnMenu {
+        display: none;
+    }
+    #menuResponsivo {
+        display: none !important;
     }
     .descricao {
         font-size: 1.5rem !important;
@@ -375,6 +424,16 @@ img {
     #logo a img {
         height: auto;
         width: 100%;
+    }
+    #logoFooter img {
+        height: 40px;
+        width: auto;
+    }
+    #btnMenu {
+        display: none;
+    }
+    #menuResponsivo {
+        display: none !important;
     }
     .conteudo {
         width: 70%;
