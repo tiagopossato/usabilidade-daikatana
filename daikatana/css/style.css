@@ -55,7 +55,7 @@ section.banner{
 	line-height:6vw;
 	color: #25282d;
 	width: 75vw;
-	margin: 20vw auto;
+	margin: 7vw auto;
 	letter-spacing: 0.1em;
 }
 section.banner h1{
@@ -63,7 +63,7 @@ section.banner h1{
 	 
 }
 /*section.banner p span*/
-section.banner h1 span{
+section.banner p span{
 	background: #3e84da;
 	color: white;
 	padding: 0 3px;
@@ -93,13 +93,13 @@ section.cliente h3{
 }
 section.cliente ul{
 	overflow: auto;
-	width: 60vw;
+	/*width: 60vw;*/
 	margin: 0 auto 8vw;
 	border:1px solid #3673bd;
 }
 section.cliente ul li{
-	width:15vw;
-	height: 15vw;
+	/*width:15vw;*/
+	/*height: 15vw;*/
 	line-height: 15vw;
 	float: left;
 	text-align: center;
