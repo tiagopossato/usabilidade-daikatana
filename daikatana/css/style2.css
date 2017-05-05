@@ -34,8 +34,9 @@ header ul li{
 	padding: 5px;
 	font-size: 1.2vw;
 }
-header ul li.atual{
-	border-bottom: 1px #3e84da solid;
+header ul li a.atual{
+	/*border-bottom: 1px #3e84da solid;*/
+	color: #3e84da !important;
 }
 header ul li a.btn{
 	border: 1px #3e84da solid;
@@ -52,7 +53,7 @@ section.banner{
 	line-height:6vw;
 	color: #25282d;
 	width: 75vw;
-	margin: 20vw auto;
+	margin: 5vw auto;
 	letter-spacing: 0.1em;
 }
 section.banner h1{
