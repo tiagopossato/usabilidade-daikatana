@@ -33,26 +33,27 @@
 /* ESTILIZAR BARRA DE ROLAGEM */
 /* Largura da barra de rolagem */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
 }
 
 /* Fundo da barra de rolagem */
 ::-webkit-scrollbar-track-piece {
-    background-color: #FFF;
+    background-color: #3e84da;
     /*border-left: 1px solid #CCC;*/
 }
 
 /* Cor do indicador de rolagem */
 ::-webkit-scrollbar-thumb:vertical,
 ::-webkit-scrollbar-thumb:horizontal {
-    background-color: #696861;
+    background-color: #f5f5f5;
+    border-radius: 5px;
 }
 
 /* Cor do indicador de rolagem - ao passar o mouse */
 ::-webkit-scrollbar-thumb:vertical:hover,
 ::-webkit-scrollbar-thumb:horizontal:hover {
-    background-color: #3e84da;
-    opacity: 0.5;
+    background-color: #e0e0e0;
+    border-radius: 5px;
 }
 
 body {
