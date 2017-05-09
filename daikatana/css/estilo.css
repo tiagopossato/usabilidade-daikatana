@@ -178,17 +178,36 @@ ol ol {
         line-height: 40px;
         vertical-align: middle;
     }
-    section.cliente h2 {
+    section.cliente h2,
+    section.digital h2 {
         font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    section.cliente p.descricao,
+    section.digital p.descricao {
+        font-size: 1rem;
     }
     section.cliente li {
         line-height: 100%;
     }
     section.cliente img {
-        height: 50%;
+        height: 20% !important;
+        width: auto !important;
+    }
+    section.cliente a,
+    section.digital a {
+        font-size: 1rem;
+    }
+    footer img {
+        height: 40px;
         width: auto;
     }
-    s .container {
+    footer ul li a {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .container {
         /*width: 750px;*/
         width: 90%;
     }
@@ -288,7 +307,7 @@ ol ol {
         text-align: left;
     }
     .text-right-sm {
-        text-align: right;
+        text-align: right !important;
     }
     .text-center-sm {
         text-align: center;
@@ -309,8 +328,27 @@ ol ol {
     header nav a {
         font-size: 1rem;
     }
-    section.cliente h2 {
+    section.cliente h2,
+    section.digital h2 {
         font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    section.cliente p.descricao,
+    section.digital p.descricao {
+        font-size: 1.2rem;
+    }
+    section.cliente a,
+    section.digital a {
+        font-size: 1.2rem;
+    }
+    footer img {
+        height: 50px;
+        width: auto;
+    }
+    footer ul li a {
+        font-size: 1.2rem;
+        line-height: 30px;
     }
     .container {
         /*width: 970px;*/
@@ -428,8 +466,27 @@ ol ol {
         line-height: 40px;
         vertical-align: middle;
     }
-    section.cliente h2 {
+    section.cliente h2,
+    section.digital h2 {
         font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    section.cliente p.descricao,
+    section.digital p.descricao {
+        font-size: 1.2rem;
+    }
+    section.cliente a,
+    section.digital a {
+        font-size: 1.4rem;
+    }
+    footer img {
+        height: 50px;
+        width: auto;
+    }
+    footer ul li a {
+        font-size: 1.2rem;
+        line-height: 45px;
     }
     .container {
         /*width: 1170px;*/
