@@ -19,3 +19,15 @@ As modificações realizadas no layout foram:
   * **Telas pequenas** (sm): o logo é reduzido e centralizado, ocupando uma linha; o menu é centralizado e exibido abaixo do logo, um item por linha;
   * **Telas médias** (md): o logo é reduzido e centralizado, ocupando uma linha; o menu é centralizado e exibido abaixo do logo;
   * **Telas grandes** (lg): o logo é alinhado à esquerda; o menu é alinhado à direita.
+* **section.cliente img** (lista de imagens de clientes)
+  * **Telas pequenas** (sm): uma imagem por linha;
+  * **Telas médias** (md): duas imagens por linha;
+  * **Telas grandes** (lg): três imagens por linha
+* **section.mapa** (mapa de localização)
+  * **Telas pequenas** (sm): não é exibido;
+  * **Telas médias** (md): largura máxima da tela e altura de 400px;
+  * **Telas grandes** (lg): largura máxima da tela e altura de 600px.
+* **footer** (logo e menu)
+  * **Telas pequenas** (sm): 
+  * **Telas médias** (md): 
+  * **Telas grandes** (lg): 
