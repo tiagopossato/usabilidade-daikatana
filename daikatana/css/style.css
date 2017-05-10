@@ -142,7 +142,7 @@ section.digital a{
 }
 
 footer{
-	display: flex;
+	/*display: flex;*/
 	/*align-items: flex-end;*/
 	/*justify-content: center;*/
 	padding: 3vw 0;
@@ -152,11 +152,11 @@ footer img{
 }
 
 footer ul{
-	display: flex;
-	margin-left: 2vw;
+	/*display: flex;*/
+	/*margin-left: 2vw;*/
 }
 footer li{
-	margin:0 1vw;
+	/*margin:0 1vw;*/
 	font-size: 1.1vw;
 }
 footer li a {

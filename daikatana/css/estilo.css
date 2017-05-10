@@ -231,7 +231,7 @@ ol ol {
     }
     footer ul li a {
         font-size: 1rem;
-        line-height: 20px;
+        line-height: 25px;
     }
     .container {
         /*width: 750px;*/
@@ -367,6 +367,10 @@ ol ol {
     section.cliente a,
     section.digital a {
         font-size: 1.2rem;
+    }
+    section.mapa{
+        height: 400px;
+        width: 100%;
     }
     footer img {
         height: 50px;
@@ -506,13 +510,17 @@ ol ol {
     section.digital a {
         font-size: 1.4rem;
     }
+    section.mapa{
+        height: 600px;
+        width: 100%;
+    }
     footer img {
         height: 50px;
         width: auto;
     }
     footer ul li a {
         font-size: 1.2rem;
-        line-height: 45px;
+        line-height: 25px;
     }
     .container {
         /*width: 1170px;*/
