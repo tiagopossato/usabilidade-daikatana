@@ -15,7 +15,7 @@ As modificações realizadas no layout foram:
   * **Telas pequenas** (sm): o logo é reduzido e alinhado à esquerda; o menu é ocultado e um botão para abrí-lo é exibido;
   * **Telas médias** (md): o logo é reduzido e centralizado, ocupando uma linha; o menu é centralizado e exibido abaixo do logo;
   * **Telas grandes** (lg): o logo é alinhado à esquerda; o menu é alinhado à direita.
- * **footer** (logo e menu)
+* **footer** (logo e menu)
   * **Telas pequenas** (sm): o logo é reduzido e centralizado, ocupando uma linha; o menu é centralizado e exibido abaixo do logo, um item por linha;
   * **Telas médias** (md): o logo é reduzido e centralizado, ocupando uma linha; o menu é centralizado e exibido abaixo do logo;
   * **Telas grandes** (lg): o logo é alinhado à esquerda; o menu é alinhado à direita.
