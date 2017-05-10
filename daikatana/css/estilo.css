@@ -87,6 +87,7 @@ h6,
 .h5,
 .h6 {
     font-family: inherit;
+    
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -192,7 +193,7 @@ ol ol {
 
 /*767*/
 
-@media (max-width: 699px) {
+@media (max-width: 600px) {
     header {
         font-size: 1.5rem;
     }
@@ -333,7 +334,7 @@ ol ol {
         text-align: left;
     }
     .text-right-sm {
-        text-align: right !important;
+        text-align: right;
     }
     .text-center-sm {
         text-align: center;
@@ -346,7 +347,7 @@ ol ol {
 
 /*768 -> 1199 */
 
-@media (min-width: 700px) {
+@media (min-width: 601px) {
     header a img {
         height: 50px;
         width: auto;
@@ -490,7 +491,7 @@ ol ol {
 
 /*1200*/
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
     header nav a {
         font-size: 1.09rem;
         line-height: 40px;

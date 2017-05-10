@@ -26,12 +26,3 @@ $(document).ready(function() {
         }
     });
 });
-/*
-
-
-        $("#menuResponsivo").toggleClass('oculto');
-        $("#menuResponsivo").addClass('animated');
-        $("#menuResponsivo").addClass('fadeInDown');
-
-
-*/
