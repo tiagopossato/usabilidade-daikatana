@@ -29,27 +29,52 @@
 #btnMenu a:hover {
     opacity: 0.5;
 }
+section.mapa{
+    min-height: 200px;
+    background-image: url('../img/bg-mapa.png');
+}
+section.mapa p {
+    margin: 75px auto;
+}
+
+section.mapa a {
+    color: #FFF !important;
+    background-color: #3e84da;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
 
 /* ESTILIZAR BARRA DE ROLAGEM */
+
+
 /* Largura da barra de rolagem */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+
 /* Fundo da barra de rolagem */
+
 ::-webkit-scrollbar-track-piece {
     background-color: #3e84da;
     /*border-left: 1px solid #CCC;*/
 }
 
+
 /* Cor do indicador de rolagem */
+
 ::-webkit-scrollbar-thumb:vertical,
 ::-webkit-scrollbar-thumb:horizontal {
     background-color: #f5f5f5;
     border-radius: 5px;
 }
 
+
 /* Cor do indicador de rolagem - ao passar o mouse */
+
 ::-webkit-scrollbar-thumb:vertical:hover,
 ::-webkit-scrollbar-thumb:horizontal:hover {
     background-color: #e0e0e0;
@@ -87,7 +112,6 @@ h6,
 .h5,
 .h6 {
     font-family: inherit;
-    
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -369,7 +393,7 @@ ol ol {
     section.digital a {
         font-size: 1.2rem;
     }
-    section.mapa{
+    section.mapa {
         height: 400px;
         width: 100%;
     }
@@ -511,7 +535,7 @@ ol ol {
     section.digital a {
         font-size: 1.4rem;
     }
-    section.mapa{
+    section.mapa {
         height: 600px;
         width: 100%;
     }

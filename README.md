@@ -27,7 +27,7 @@ As modificações realizadas no layout foram:
   * *Telas médias (md)*: duas imagens por linha;
   * *Telas grandes (lg)*: três imagens por linha
 * **section.mapa** (mapa de localização) *[seção adicional]*
-  * *Telas pequenas (sm)*: não é exibido;
+  * *Telas pequenas (sm)*: é exibido um botão que abrirá a localização no aplicativo de mapas do celular;
   * *Telas médias (md)*: largura máxima da tela e altura de 400px;
   * *Telas grandes (lg)*: largura máxima da tela e altura de 600px.
 * **h2, p.descricao** (títulos e textos)
