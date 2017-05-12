@@ -33,11 +33,11 @@ section.mapa{
     min-height: 200px;
     background-image: url('../img/bg-mapa.png');
 }
-section.mapa p {
+section.mapa p.mapph {
     margin: 75px auto;
 }
 
-section.mapa a {
+section.mapa a.maplink {
     color: #FFF !important;
     background-color: #3e84da;
     padding: 15px;
